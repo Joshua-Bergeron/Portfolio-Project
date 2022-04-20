@@ -19,5 +19,11 @@ const Wrapper = styled.nav`
   padding-right: 8%;
   padding-bottom: 20px;
   margin: 0 auto;
+  
+  @media only screen and (max-width: 500px) {
+    div {
+      font-size: 14px;
+    }
+  }
 `;
 export default Wrapper;
